@@ -23,7 +23,7 @@ jobs:
       # Build image
       - name: Build Docker image
         run: |
-          docker build -t playstationflatsmoke123/cicd-demo:latest .
+          docker build -t playstationflatsmoke123/cicd-demo:latest
 
       # Push image
       - name: Push Docker image
